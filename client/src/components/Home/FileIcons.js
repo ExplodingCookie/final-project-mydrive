@@ -9,8 +9,8 @@ const RowIcons = styled.div`
  align-items: center;
 `
 
-const DOWNLOAD = 'fas fa-file-download fa-2x'
-const TRASH = 'far fa-trash-alt fa-2x'
+const DOWNLOAD_ICON = 'fas fa-file-download fa-2x'
+const TRASH_ICON = 'far fa-trash-alt fa-2x'
 
 class FileIcons extends React.Component {
   render () {
@@ -18,11 +18,11 @@ class FileIcons extends React.Component {
       <RowIcons>
         <i
           style={{ marginRight: '25px' }}
-          className={DOWNLOAD}
+          className={DOWNLOAD_ICON}
         />
         <i
           style={{ marginRight: '25px' }}
-          className={TRASH}
+          className={TRASH_ICON}
         />
       </RowIcons>
     )
